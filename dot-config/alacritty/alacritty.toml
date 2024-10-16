@@ -2,7 +2,7 @@ shell = "/opt/homebrew/bin/fish"
 
 live_config_reload = true
 
-import = ["~/.dotfiles/alacritty/themes/hyper.toml"]
+import = ["~/dotfiles/dot-config/alacritty/themes/hyper.toml"]
 
 [window]
 decorations = "none"

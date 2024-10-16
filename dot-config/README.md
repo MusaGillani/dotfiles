@@ -21,7 +21,6 @@ run this command in the root of the cloned repo:
 
 ```sh
     cd ~/dotfiles
-
     stow --dotfiles .
 ```
 
@@ -34,7 +33,7 @@ Create symbolic links for the configurations you want to use:
 
 ### TMUX
 
-    ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+    ln -s ~/dotfiles/dot-config/.tmux.conf ~/.tmux.conf
 
 ### NVIM
 
@@ -44,5 +43,5 @@ Create symbolic links for the configurations you want to use:
 
 2. create the symbolic link
     ```sh
-    ln -s ~/dotfiles/nvim/init.lua ~/.config/nvim./init.lua
+    ln -s ~/dotfiles/dot-config/nvim/init.lua ~/.config/nvim./init.lua
     ```

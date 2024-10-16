@@ -1,5 +1,6 @@
 
 Brewfile
+TMUX.md
 
 ## default ignore settings below
 
@@ -29,6 +30,3 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
-
-
-
