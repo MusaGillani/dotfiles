@@ -15,13 +15,13 @@ brew bundle install
 the brewfile used to unstall the bundle is created using `brew bundle --no-vscode dump` in the `~/dotfiles/directory`
 
 
-## Using GNU Stow:
+## Using GNU Stow:(WIP)
 
 run this command in the root of the cloned repo:
 
 ```sh
     cd ~/dotfiles
-    stow --dotfiles .
+    stow .
 ```
 
 the `--dotfiles` flag is used to convert `dot-` prefix to `.` for files and folders
