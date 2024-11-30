@@ -1,3 +1,4 @@
+# WIP
 # Installation
 
 First step is to clone this repository:
@@ -23,8 +24,6 @@ run this command in the root of the cloned repo:
     cd ~/dotfiles
     stow .
 ```
-
-the `--dotfiles` flag is used to convert `dot-` prefix to `.` for files and folders
 
 ## Setting up configs(manually)
 Create symbolic links for the configurations you want to use:
