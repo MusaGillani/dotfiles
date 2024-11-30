@@ -1,0 +1,15 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Move the directory to the second line
+
+format = '$all$directory$character'
+
+command_timeout = 1000
+
+# ignore_timeout = true
+
+
+
+[directory]
+
+truncation_length = 1

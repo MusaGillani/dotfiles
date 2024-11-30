@@ -1,0 +1,20 @@
+shell = "/opt/homebrew/bin/fish"
+
+live_config_reload = true
+
+import = ["~/dotfiles/dot-config/alacritty/themes/hyper.toml"]
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
+dynamic_title = false
+dynamic_padding = true
+title = "Alacritty"
+decorations_theme_variant = "None"
+
+[font.normal]
+family = "MesloLGLDZ Nerd Font"
+style = "Bold"
+
+[font]
+size = 20

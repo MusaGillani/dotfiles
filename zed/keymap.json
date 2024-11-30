@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Editor && vim_mode == normal && (vim_operator == none || vim_operator == n) && !VimWaiting",
+    "bindings": {
+      "space w": "workspace::Save",
+      "space p": "editor::Format",
+      "space c a": "editor::ToggleCodeActions", // zed specific
+      "space v": "pane::SplitLeft"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-b": "workspace::ToggleRightDock",
+      "cmd-r": "workspace::ToggleLeftDock"
+    }
+  },
+  // use shift+s to surround highlighted selection
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "shift-s": [
+        "vim::PushOperator",
+        {
+          "AddSurrounds": {}
+        }
+      ]
+    }
+  },
+  // https://github.com/zed-industries/zed/discussions/8300#discussioncomment-10299526
+  // Code Actions / Completions
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "bindings": {
+      "alt-j": "editor::ContextMenuNext",
+      "alt-k": "editor::ContextMenuPrev"
+    }
+  }
+]

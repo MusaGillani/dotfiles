@@ -1,0 +1,6 @@
+[user]
+name = "Musa Gillani"
+email = "musagillaniwork@gmail.com"
+
+[ui]
+editor = "nvim"

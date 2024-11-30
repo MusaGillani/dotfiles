@@ -1,0 +1,71 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": true
+  },
+  "theme": {
+    "mode": "system",
+    "dark": "The Dark Side",
+    "light": "One Light"
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  // "ui_font_family": "Zed Plex Sans",
+  "ui_font_family": "Menlo",
+  "terminal": {
+    "shell": {
+      "program": "/opt/homebrew/bin/fish"
+    },
+    "blinking": "on"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "vim": {
+    "use_system_clipboard": "always",
+    // Let `f` and `t` motions extend across multiple lines
+    "use_multiline_find": true,
+    // Let `f` and `t` motions match case insensitively if the target is lowercase
+    "use_smartcase_find": true,
+    // Use relative line numbers in normal mode, absolute in insert mode
+    // c.f. https://github.com/jeffkreeftmeijer/vim-numbertoggle
+    "toggle_relative_line_numbers": true
+  },
+  "cursor_blink": true,
+  // use relative line numbers
+  "relative_line_numbers": true,
+  // hide the scroll bar
+  // "scrollbar": { "show": "never" },
+  // prevent the buffer from scrolling beyond the last line
+  "scroll_beyond_last_line": "one_page",
+  // allow cursor to reach edges of screen
+  "vertical_scroll_margin": 0,
+  "gutter": {
+    // disable line numbers completely:
+    // "line_numbers": false
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "diagnostics": {
+        "disabled": ["unlinked-file"]
+      }
+    }
+    //   "graphql": {
+    //     "settings": {
+    //       "config_dir": "./api"
+    //     }
+    //   }
+  }
+}
